@@ -1,4 +1,5 @@
 # prime number calculator: find all primes up to n
+from datetime import datetime
 max = int(input("Trova numeri primi fino a quale numero? : ")) #Find primes up to what number
 primeList = []
 #for loop for checking each number
@@ -13,7 +14,7 @@ for x in range(2, max + 1):
 		index += 1
 	if isPrime:
 		primeList.append(x)
-print(primeList)
+print(primeList, "fecha: ", datetime.now())
 #-------------------------------------------------------------
 # prime number calculator: find the first n primes
 count = int(input("Trova quanti numeri primi?: ")) #Find how many primes?
@@ -32,3 +33,4 @@ while len(primeList) < count:
 		primeList.append(x)
 	x += 1
 print(primeList)
+print("fecha: ", datetime.now())
