@@ -1,5 +1,5 @@
 # prime number calculator: find all primes up to n
-max = int(input("Encontrar primos hasta que numero? : ")) #Find primes up to what number
+max = int(input("Trova numeri primi fino a quale numero? : ")) #Find primes up to what number
 primeList = []
 #for loop for checking each number
 for x in range(2, max + 1):
@@ -16,7 +16,7 @@ for x in range(2, max + 1):
 print(primeList)
 #-------------------------------------------------------------
 # prime number calculator: find the first n primes
-count = int(input("Encuentra cuantos primos?: ")) #Find how many primes?
+count = int(input("Trova quanti numeri primi?: ")) #Find how many primes?
 primeList = []
 x = 2
 while len(primeList) < count:
